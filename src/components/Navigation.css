@@ -1,0 +1,16 @@
+.logo {
+    font-family: Fraunces;
+    font-weight: 900;
+    color: white;
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh 2vh;
+}
+
+.hamburger-menu {
+    border: solid 1px;
+}
