@@ -5,11 +5,43 @@
 }
 
 nav {
+    position: relative;
     display: flex;
     justify-content: space-between;
     padding: 4vh 2vh;
 }
 
+.mobile-menu {
+    width: 80vw;
+    height: 30vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background-color: white;
+    bottom: -10;
+    right: 0;
+    margin: 9vh 5vh;
+    border-right: 10px solid white;
+    border-top: 10px solid hsl(168, 34%, 41%);
+}
+
+.hidden {
+    display: none;
+}
+
+.mobile-menu li {
+
+}
+
+.contact {
+    background-color: hsl(51, 100%, 49%);
+    padding: 10px 20px;
+    border-radius: 40px;
+}
 /* .hamburger-menu {
     border: solid 1px;
 } */
