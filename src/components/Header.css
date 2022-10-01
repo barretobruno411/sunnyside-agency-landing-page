@@ -1,0 +1,19 @@
+header {
+    background-image: url(../images/mobile/image-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-text {
+    padding: 10vh 4vw;
+    color: white;
+    font-family: Fraunces;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.arrow {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20vh;
+}
