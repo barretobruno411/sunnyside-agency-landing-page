@@ -20,45 +20,23 @@
   --Grayish-blue: hsl(210, 4%, 67%);
   --White: hsl(0, 0%, 100%);
 }
-.logo {
-  font-family: Fraunces;
-  font-weight: 900;
+.desktop-ul {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  list-style: none;
+  font-family: Barlow, sans-serif;
   color: white;
 }
 
-nav {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  padding: 4vh 2vh;
-}
-
-.mobile-menu {
-  width: 80vw;
-  height: 30vh;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
+.contact {
+  color: black;
   background-color: white;
-  bottom: -10;
-  right: 0;
-  margin: 9vh 5vh;
-  border-right: 10px solid white;
-  border-top: 10px solid var(--Dark-desaturated-cyan);
-}
-
-.hidden {
-  display: none;
-}
-
-.mobile-menu li {
-}
-.contact-mobile {
-  background-color: hsl(51, 100%, 49%);
   padding: 10px 20px;
   border-radius: 40px;
+}
+
+.contact:hover {
+  cursor: pointer;
+  background-color: rgb(97, 97, 185);
 }
