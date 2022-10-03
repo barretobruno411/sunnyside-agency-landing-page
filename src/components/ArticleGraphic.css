@@ -32,3 +32,24 @@
   color: hsl(198, 62%, 26%);
   
 }
+@media (min-width: 600px) {
+    .articleGraphic {
+        display: flex;
+    }
+    .articleGraphic .graphic p {
+        width: 20vw;
+        margin-bottom: 8vh;
+    }
+    .graphic {
+        height: 81.3vh;
+        width: 100vw;
+    }
+    .design {
+        background-image: url(../images/desktop/image-graphic-design.jpg);
+        background-size: contain;
+    }
+    .photography {
+        background-image: url(../images/desktop/image-photography.jpg);
+        background-size: contain;
+    }
+}
