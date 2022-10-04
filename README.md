@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 
 ![Mobile footer](./screenshot.png) ![Mobile header](./screenshot2.png)
-
+![Desktop testimonials](./screenshot3.png)
 
 ### Links
 
