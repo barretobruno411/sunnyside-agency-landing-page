@@ -7,3 +7,12 @@
     width: 50vw;
     flex: 1;
 }
+
+@media (min-width: 600px) {
+    .pictures-section {
+        flex-wrap: nowrap;
+    }
+    .pictures-section img {
+        width: 22vw;
+    }
+}
