@@ -1,0 +1,9 @@
+.pictures-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pictures-section img {
+    width: 50vw;
+    flex: 1;
+}

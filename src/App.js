@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import Main from "./components/Main"
 import ArticleGraphic from "./components/ArticleGraphic"
 import Testimonials from "./components/Testimonials"
+import Pictures from "./components/Pictures"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Main />
       <ArticleGraphic />
       <Testimonials />
+      <Pictures />
     </div>
   );
 }
