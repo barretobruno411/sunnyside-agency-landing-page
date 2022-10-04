@@ -4,6 +4,7 @@ import Main from "./components/Main"
 import ArticleGraphic from "./components/ArticleGraphic"
 import Testimonials from "./components/Testimonials"
 import Pictures from "./components/Pictures"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ArticleGraphic />
       <Testimonials />
       <Pictures />
+      <Footer />
     </div>
   );
 }
